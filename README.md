@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# React-Redux-Toolkit-Starter2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Stacks
 
-## Available Scripts
+![react](https://badges.aleen42.com/src/react.svg)
+![react-router](https://badges.aleen42.com/src/router.svg)
+![typescript](https://badges.aleen42.com/src/typescript.svg)
+![redux](https://badges.aleen42.com/src/redux.svg)
+![vscode](https://badges.aleen42.com/src/visual_studio.svg)
+![npm](https://badges.aleen42.com/src/npm.svg)
+![github](https://badges.aleen42.com/src/github.svg)
+![eslint](https://badges.aleen42.com/src/eslint.svg)
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## 0. Update
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+v 0.1.0 : this is a first version of starter pack and the improvement of starter1
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## 1. Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a react starter with redux, typescript mainly.  
+I really worried about how to setting react with redux fast.  
+Whenever I delete and download packages and set the default structure repeatedly, I finally noticed that It is a waste of time(**_really_**)
 
-### `yarn build`
+So, I made this default setting, and I am gonna use this for my whole project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **and the difference from starter1**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    1.  removed 'normalize.css' and just add reset.css CDN because don't want to add more dependency
+    2.  removed 'types' folder becuase I think setting types in each component like css is much better than set in the commonly used types folder according to the rules 'things should be disposed in the related place'
+    3.  and also, I removed 'common.ts' for emotion css also to follow a relevent placing rule
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+## 2. How to use
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+It is simple. The only thing you should do is just
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Make your own project folder
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Open your terminal
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. If you don't have "git", please install it first, and type this on your terminal
 
-## Learn More
+```Bash
+    $ npx create-react-app . --template typescript
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+you will see the whole latest react project are made.  
+Then, you should delete
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> a. public  
+> b. src
+
+After that, plaese download and unzip my gitrepository files, copy all, and paste them to your react folder
+
+Finally, please enter
+
+```
+    $ npm install
+```
